@@ -1,0 +1,12 @@
+train: C:\Programs\facultate\licenta\local\Yolo_train\only_crosswalk_dataset\train\images
+val: C:\Programs\facultate\licenta\local\Yolo_train\only_crosswalk_dataset\valid\images
+# test: C:\Programs\facultate\licenta\local\Yolo_train\only_crosswalk_dataset\test\images
+
+names: ['zebra_cross']
+
+roboflow:
+  workspace: roboflow-100
+  project: road-signs-6ih4y
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/road-signs-6ih4y/dataset/2
